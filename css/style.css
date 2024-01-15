@@ -1,0 +1,45 @@
+.text-box h3 {
+    color: pink;
+  }
+  
+  .text-box p:not(#greycol) {
+  }
+  
+  .text-box div > p {
+    color: red;
+  }
+  
+  .text-box p.green {
+    color: green;
+  }
+  
+  .text-box .yellow {
+    color: yellow;
+  }
+
+.lessons-container .monday li { background-color: blue; }
+.lessons-container .tuesday li { background-color: yellow; }
+.lessons-container .wednesday li { background-color: red; }
+.lessons-container .thursday li { background-color: green; }
+.lessons-container .friday li { background-color: violet; }
+
+.lessons-container li:hover {
+  font-weight: bold;
+}
+
+.lessons-container li:nth-child {
+  text-decoration: underline;
+}
+
+.lessons-container li:nth-child {
+  font-style: italic;
+}
+
+
+.lessons-container li:first-child {
+    font-size:  30px; ;
+}
+
+.lessons-container li:last-child {
+  font-size: 30px;
+}
