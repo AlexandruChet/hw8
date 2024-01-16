@@ -2,16 +2,18 @@
     color: pink;
   }
   
-  .text-box p:not(#greycol) {
-    
+  .text-box p:not(#greycol):contains('Даний елемент має залишитись неоформленим') {
+    /* Залишаємо їх неоформленими, тобто без додаткових стилів */
   }
-  
-  .text-box div > p {
+  .text-box #greycol:contains('сірий колір') {
+    color: grey;
+  }
+  <style>
+  #greycol {
+    color: grey;
+  }
+  .text-box div p {
     color: red;
-  }
-  
-  .text-box p.green {
-    color: green;
   }
   
   .text-box .yellow {
