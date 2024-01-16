@@ -1,29 +1,39 @@
-
-  .text-box h3:contains('Пофарбуйте мене в рожевий колір') {
+.text-box h3 {
     color: pink;
   }
-
-
-  .text-box p:not([id]):contains('Даний елемент має залишитись неоформленим') {
-    /* Залишаємо їх неоформленими, тобто без додаткових стилів */
+  
+  .text-box p:not(#greycol) {
+    
   }
-
-
-  .text-box #greycol:contains('Пофарбуйте мене в сірий колір') {
-    color: grey;
-  }
-
-
-  .text-box div:contains('Пофарбуйте мене в червоний колір') {
+  
+  .text-box div > p {
     color: red;
   }
-
-  .text-box p:contains('Пофарбуйте мене в зелений колір') {
+  
+  .text-box p.green {
     color: green;
   }
-
-  .text-box p.yellow:contains('Пофарбуйте мене в жовтий колір') {
+  
+  .text-box .yellow {
     color: yellow;
   }
+
+.lessons-container .monday li { background-color: blue; }
+.lessons-container .tuesday li { background-color: yellow; }
+.lessons-container .wednesday li { background-color: red; }
+.lessons-container .thursday li { background-color: green; }
+.lessons-container .friday li { background-color: violet; }
+
+.lessons-container li:hover {
+  font-weight: bold;
+}
+
+.lessons-container li:nth-child {
+  text-decoration: underline;
+}
+
+.lessons-container li:nth-child {
+  font-style: italic;
+}
 
 
