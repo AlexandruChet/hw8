@@ -3,6 +3,7 @@
   }
   
   .text-box p:not(#greycol) {
+    
   }
   
   .text-box div > p {
@@ -36,10 +37,3 @@
 }
 
 
-.lessons-container li:first-child {
-    font-size:  30px; ;
-}
-
-.lessons-container li:last-child {
-  font-size: 30px;
-}
