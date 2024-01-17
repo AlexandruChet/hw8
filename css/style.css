@@ -2,7 +2,7 @@
     color: pink;
   }
   
-  .text-box p:not(#greycol):contains('Даний елемент має залишитись неоформленим') {
+  .text-box p:not(#greycol):contains {
     /* Залишаємо їх неоформленими, тобто без додаткових стилів */
   }
 
